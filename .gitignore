@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+*.json
+!requirements.json
+
+# Ngrok
+ngrok.yml
+ngrok.conf
+ngrok.log
+ngrok
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Security
+.env
+*.key
+*.pem
+secrets/
+
+# Temporary
+tmp/
+temp/
+*.tmp
