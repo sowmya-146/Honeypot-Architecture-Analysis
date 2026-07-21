@@ -173,37 +173,6 @@ ngrok authtoken YOUR_AUTH_TOKEN
 python src/honeypot.py
 ```
 
-### Directory Structure
-
-```
-honeypot-architecture-analysis/
-├── src/
-│   ├── honeypot.py           # Main honeypot server
-│   ├── detector.py           # Attack detection engine
-│   ├── logger.py             # JSON logging module
-│   ├── visualizer.py         # Matplotlib visualization
-│   ├── alert_system.py       # Real-time console alerts
-│   └── config.py             # Configuration settings
-├── logs/
-│   ├── attacks.log           # All attacks log
-│   ├── interactions.log      # All HTTP interactions
-│   └── alerts.log            # Alert history
-├── reports/
-│   ├── attack_distribution.png # Visualization
-│   ├── report_YYYYMMDD.csv     # Daily reports
-│   └── summary.pdf             # Summary report
-├── tests/
-│   ├── test_detector.py      # Unit tests
-│   └── test_logger.py        # Logger tests
-├── screenshots/
-│   ├── dashboard.png
-│   ├── alert_console.png
-│   └── attack_distribution.png
-├── requirements.txt          # Python dependencies
-├── setup.py                 # Installation script
-└── README.md               # This file
-```
-
 ---
 
 ## 🧪 Testing the Honeypot
